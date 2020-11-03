@@ -15,6 +15,7 @@ const server = new GraphQLServer({
   typeDefs,
   resolvers,
   context,
+  middlewares,
 });
 
 const option = {
