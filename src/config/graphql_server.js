@@ -22,10 +22,10 @@ const option = {
   port: 3000,
   cors: {
     credentials: true,
-    origin: 'https://some_url', // your frontend url.
+    origin: '*', // your frontend url.
   },
   endpoint: OPTION.GRAPHQL_ENDPOINT,
-  playground: OPTION.PLAYGROUND, // false on IS_PROD
+  playground: OPTION.PLAYGROUND, 
 };
 
 const app = server.express;
